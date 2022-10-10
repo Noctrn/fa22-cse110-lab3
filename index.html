@@ -2,53 +2,69 @@
 <html lang="en">
   <head>
     <title>Some kind of a note</title>
+    <link rel="icon" type="iamge/x-icon" href="https://www.favicon.cc/#">
+    <meta name="By" content="Vladimir Em">
   </head>
   <body>
     <h1>Creating notes</h1>
     <h2>Thinking of how to create a note</h2>
     <h3>10/08/2022</h3>
 
-    <div class="People in attendance">
-        <h4>People in attendance:</h4>
+    <header>This was an intresting meeting</header>
+    <footer>it was long</footer>
 
-        <ul>
-            <li>Frank I</li>
-            <li>Frank II</li>
-            <li>Frank III</li>
-            <li>Frank IV</li>
-        </ul>
-    </div>
+    <hr>
+    
+    <section>
+        <ol>
+            <div class="People in attendance">
+                <h4>People in attendance:</h4>
 
-    <div class="Today's Agenda":>
-        <h4>Today's Agenda:</h4>
+                <ul>
+                    <li>Frank <b>I</b></li>
+                    <li>Frank <strong>II</strong></li>
+                    <li>Frank III, <em>THE GREAT</em></li>
+                    <li>Frank <a>IV</a></li>
+                </ul>
+            </div>
+        </ol>
 
-        <ul>
-            <li>Think of a note</li>
-            <li>Desiign a note</li>
-            <li>Look at the empty note</li>
-            <li>Write the note</li>
-        </ul>
-    </div>
+        <div class="Today's Agenda":>
+            <h4>Today's Agenda:</h4>
 
-    <div class="From the last meeting":>
-        <h4>From the last meeting:</h4>
+            <ul>
+                <li>Think of a <span style="color:rgb(208, 255, 0)"> note</span></li>
+                <li>Desiign a note</li>
+                <li>Look at the empty note</li>
+                <li>Write the note</li>
+            </ul>
+        </div>
 
-        <ul>
-            <li> <i>Smelling</i> the note</li>
-        </ul>
-    </div>
+        <div class="From the last meeting":>
+            <h4>From the last meeting:</h4>
 
-    <div class="For today":>
-        <h4>For today:</h4>
+            <ul>
+                <li> <i>Smelling</i> the note</li>
+            </ul>
+        </div>
 
-        <ul>
-            <li>How does the note <i>smell</i>? </li>
-        </ul>
-    </div> 
+        <div class="For today":>
+            <h4>For today:</h4>
+
+            <ul>
+                <li>How does the note <i>smell</i>? </li>
+            </ul>
+        </div> 
+    </section>
+
+    <hr>
     <p>
-        Below we provide the image of how we decided that our note might look like. 
+        Below we provide the image of how we decided that our note might look like. <br>
         Unfortunately, we can only provide one discription for the <i>smell</i>: it was noty.
     </p>
+
+    <hr>
+
     <main>
         <h1>Photo of the note paper</h1>
         <img
@@ -57,13 +73,21 @@
           width="300"
         />
      </main>
-
+     <details>
+        <p>
+            <summary>The Image</summary>
+            The image is very smelly
+        </p>
+    </details>
+     <hr>
+     
      <video width="320" height="240" controls>
         <source src=https://mobclip.net/engine/download.php?id=1156" type="video/mp4">
       Your browser does not support the video tag.
       </video>
-
-      <figure>
+    
+    <hr>
+    <figure>
         <figcaption>Listen to Smells Like Teen Spirit:</figcaption>
         <audio
             controls
@@ -73,6 +97,40 @@
                 </a>
         </audio>
     </figure>
+
+    <hr>
+
+    <form>
+        <fieldset>
+            <label for="Info">Info:</label><br>
+            <input type="text" id="Info" name="Info" value=""><br>
+            <label for="More Info">More Info:</label><br>
+            <input type="text" id="More Info" name="More Info" value=""><br>
+        </fieldset>
+        <fieldset>
+            <p><label for="Smell">Smell:</label></p>>
+            <textarea id="Smell" name="Smell" rows="6" cols="90">
+                Describe the smell
+            </textarea><br>
+        </fieldset>
+        <fieldset>
+            <datalist id="smell strength">
+                <option value="Not smelly">
+                <option value="Smelly">
+                <option value="Very Smelly">
+            </datalist>
+            <select name="Choice" id="c">
+                <option value="One">One</option>
+                <option value="Two">Two</option>
+              </select>
+            
+        </fieldset>
+        
+        <input type="submit" value="Submit">
+        
+    </form> 
+
+    <button type="press">Press</button>
 
 
   </body>
