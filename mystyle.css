@@ -1,0 +1,21 @@
+ /* Defining colors for the elements*/
+body {
+    background-color: red;
+  }
+  
+  h1 {
+    color: black;
+    margin-left: 25px;
+  }
+  h2 {
+    color: rgba(250, 170, 10);
+    margin-left: 5cm;
+  }
+  h3 {
+    color: hsl(171, 100%, 50%);
+    margin-left: 50mm;
+  }
+  h4{
+    color: #ff00ea;
+    margin-left: 25px;
+  }
