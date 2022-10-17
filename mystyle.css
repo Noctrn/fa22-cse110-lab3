@@ -1,4 +1,3 @@
-/*Font*/
 
 
  /* Defining colors for the elements*/
@@ -38,6 +37,8 @@ body {
     border: 2px solid blue;
     padding: .5vw;
   }
+
+  /* Blocks */
  
 
   .box {
