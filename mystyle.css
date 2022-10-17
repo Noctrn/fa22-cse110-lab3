@@ -4,7 +4,6 @@
  /* Defining colors for the elements*/
 body {
     background-color: rgb(89, 112, 116);
-    text-align: center;
   }
   
   h1 {
@@ -90,8 +89,6 @@ body {
     display: grid;
     height: 30px;
     width: 100px;
-    max-height: 90;
-    max-width: 300;
     margin: 30px, 30px, 40px, 40em;
   }
   button:hover {
