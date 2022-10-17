@@ -102,10 +102,12 @@ body {
   }
   button:hover {
     color: rgb(255, 0, 170);
+    background-color:#ff00d4;
   }
 
   button:active {
     color: rgb(255, 0, 0);
+    background-color:rgb(255, 0, 0);
   }
 
   /* Media */
