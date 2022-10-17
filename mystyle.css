@@ -65,26 +65,26 @@ body {
     position: absolute;
     top: 20px; left: 30px;
     display: inline;
-    height: 300px;
-    width: 1000px;
-    max-height: 900;
-    max-width: 3000;
+    height: 1000px;
+    width: 3000px;
+    max-height: 9000;
+    max-width: 30000;
     margin: auto;
   }
   .PeopleInAttendance{
     position: static;
     top: 20px; left: 30px;
     display: flex;
-    height: 30px;
-    width: 100px;
+    height: 1000px;
+    width: 3000px;
     max-height: 900;
     max-width: 3000;
     margin: 30px, 30px, 40px, 40px;
   }
   .ForToday{
     display: grid;
-    height: 30px;
-    width: 100px;
+    height: 300px;
+    width: 1000px;
     margin: 30px, 30px, 40px, 40em;
   }
   button:hover {
