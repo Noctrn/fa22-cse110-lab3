@@ -77,7 +77,7 @@ body {
     margin: auto;
   }
   .PeopleInAttendance{
-    position: sticky;
+    position: static;
     top: 20px; left: 30px;
     display: flex;
     height: 30px;
