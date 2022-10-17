@@ -10,8 +10,8 @@ body {
     color: rgb(248, 248, 248);
     text-decoration: dotted;
     text-align: center;
-    max-height: 900;
-    max-width: 3000;
+    max-height: 900px;
+    max-width: 3000px;
   }
   h2 {
     color: rgba(250, 170, 10);
