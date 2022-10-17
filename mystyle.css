@@ -1,23 +1,29 @@
  /* Defining colors for the elements*/
 body {
-    background-color: red;
+    background-color: rgb(19, 0, 44);
+    text-align: center;
   }
   
   h1 {
     color: black;
     margin-left: 25px;
+    text-decoration: dotted;
+    text-align: center;
   }
   h2 {
     color: rgba(250, 170, 10);
     margin-left: 5cm;
+    text-align: center;
   }
   h3 {
     color: hsl(171, 100%, 50%);
     margin-left: 50mm;
+    text-align: center;
   }
   h4{
     color: #ff00ea;
     margin-left: 25px;
+    text-align: center;
   }
 
   p, 
@@ -59,6 +65,4 @@ body {
   .TodaySAgenda{
     margin: auto;
   }
-
-=======
 
