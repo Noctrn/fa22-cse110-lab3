@@ -81,8 +81,8 @@ body {
     display: flex;
     height: 30px;
     width: 100px;
-    max-height: 90;
-    max-width: 300;
+    max-height: 9000;
+    max-width: 30000;
     margin: 30px, 30px, 40px, 40em;
   }
   .ForToday{
