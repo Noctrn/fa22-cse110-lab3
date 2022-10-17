@@ -63,7 +63,7 @@ body {
   }
   .FromTheLastMeeting{
     display: inline;
-    margin: 30px, 30px, 40px, 40em;
+    margin: 300px, 300px, 400px, 400em;
     padding: .50vh, .50vh, 20vw, 20vw;
   }
   .TodaySAgenda{
@@ -87,7 +87,6 @@ body {
     margin: 30px, 30px, 40px, 40em;
   }
   .ForToday{
-    top: 20px; left: 30px;
     display: grid;
     height: 30px;
     width: 100px;
