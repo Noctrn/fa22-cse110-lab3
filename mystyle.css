@@ -78,13 +78,19 @@ body {
     width: 3000px;
     max-height: 900;
     max-width: 3000;
-    margin: 30px, 30px, 40px, 40px;
+    margin-top: 100px;
+    margin-right: 300px;
+    margin-bottom: 400px;
+    margin-left: 4em;
   }
   .ForToday{
     display: grid;
     height: 300px;
     width: 1000px;
-    margin: 30px, 30px, 40px, 40em;
+    margin-top: 100px;
+    margin-right: 300px;
+    margin-bottom: 400px;
+    margin-left: 4em;
   }
   button:hover {
     color: rgb(255, 0, 170);
