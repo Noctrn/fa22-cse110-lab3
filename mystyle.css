@@ -106,7 +106,7 @@ body {
 
   @media only screen and (max-height: 1000px) {
     h1 {
-      background-color: rgb(78, 0, 31);
+      background-color: rgb(255, 255, 255);
     }
   }
 
