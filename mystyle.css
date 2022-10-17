@@ -1,6 +1,6 @@
  /* Defining colors for the elements*/
 body {
-    background-color: rgb(19, 0, 44);
+    background-color: red;
   }
   
   h1 {
@@ -59,4 +59,6 @@ body {
   .TodaySAgenda{
     margin: auto;
   }
+
+=======
 
