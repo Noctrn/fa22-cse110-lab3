@@ -48,9 +48,9 @@ body {
   .box {
     display: inline-block;
     position: static;
-    margin-top: 30px;
-    margin-right: 30px;
-    margin-bottom: 40px;
+    margin-top: 100px;
+    margin-right: 300px;
+    margin-bottom: 400px;
     margin-left: 4em;
     padding-left: 5px;
     padding-right: 5px;
@@ -84,17 +84,16 @@ body {
     width: 100px;
     max-height: 90;
     max-width: 300;
-    margin: auto;
+    margin: 30px, 30px, 40px, 40em;
   }
   .ForToday{
-    position: absolute;
     top: 20px; left: 30px;
     display: grid;
     height: 30px;
     width: 100px;
     max-height: 90;
     max-width: 300;
-    margin: auto;
+    margin: 30px, 30px, 40px, 40em;
   }
   button:hover {
     color: rgb(255, 0, 170);
